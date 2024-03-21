@@ -1,0 +1,164 @@
+/*Todas las tablas*/
+td, th {
+    padding: 0px 2px;
+}
+/*FORM TAREA VENTA AFIP*/
+    .formVentaAFIP{
+        /*margin: 0px 10px;*/
+        /*background-color: #FFF;*/
+    }
+    .formVentaAFIP input{
+        display: inline;
+        /*height: 25px;*/
+            height: 20px;
+        width: 90px;
+    }
+    .formVentaAFIP input[type=checkbox] {
+        clear: left;
+        float: left;
+        margin: 0px 6px 7px 2px;
+        width: auto;
+
+    }
+    .formVentaAFIP div label {
+            font-size: 10px;
+        display: table-cell;
+    }
+    .formVentaAFIP div {
+        display: inline-block;
+        margin: 0px 2px;
+        clear: initial;
+        /*width: 20%;
+        float: left;*/
+    }
+    .formVentaAFIP .submit {
+        /*float: right;*/
+    }
+    .formVentaAFIP select {
+        width: 100px;
+        height: 24px;
+        padding: 0px 0px;
+    }
+/*Autocomplete*/
+.ui-autocomplete {
+    z-index:900 !important;
+    background-color: #2196F3;
+    font-size: 17px;
+}
+.ui-autocomplete li :hover { 
+    background-color: #BBDEFB;
+}
+.ui-menu-item-wrapper {
+    padding: 10px 0px;
+}
+/*New AdminLTE Styles*/
+.btn-app-selector2 {
+    border-radius: 3px;
+    position: relative;
+    padding: 4px 5px;
+    margin: 0 0 10px 10px;
+    min-width: 40px;
+    height: 29px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    font-size: 12px;
+}
+.btn-app-select {
+    border-radius: 3px;
+    position: relative;
+    padding: 7px 5px;
+    margin: 0 0 10px 10px;
+    min-width: 40px;
+    height: 35px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    font-size: 12px;
+}
+
+/*General*/
+.tblToPrint td{
+    padding: 0 5px 0 5px;
+}
+.tbl_border td{
+    border: 1px solid #000;
+    padding:2toppx;
+}
+.tbl_border th{
+    border: 1px solid #000;
+    background-color: #F5F5F5
+    padding:2px;
+}
+.tdborder{
+    border: 1px solid #000;
+}
+.tdbordertopleftbottom{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.tdbordertopleft{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.tdbordertopright{
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.tdbordertoprightbottom{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.tdborderbottom{
+    border-bottom: 1px solid #000;
+}
+.tdborderleft{
+    border-left: 1px solid #000;
+}
+.tdborderleftbottom{
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.tdborderright{
+    border-right: 1px solid #000;
+}
+.tdborderrightbottom{
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.tdborderleftright{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.tdborderleftrightbottom{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.tdborderlefttoprightbottom{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+.vl{
+    /*Vertical Line*/
+    border-left: 2px solid black;
+    height: 84px;
+    margin-left: 50%;   
+}
+.tdWithText{
+    line-height: 160%; font-size: 1em
+}
+.tdWithNumber{
+    text-align: right;
+}
+/*Formularios*/
+.selectPrecio{
+    margin-bottom: 5px;
+    border: 0px;
+}

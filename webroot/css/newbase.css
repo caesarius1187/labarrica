@@ -1,0 +1,63 @@
+/*Cajas*/
+.controlada {
+    float: right;
+}
+/*Datatables*/
+.tdTruncated{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tdTruncatedLeft{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: rtl;
+}
+
+.odd{
+    background-color: #0F0F0F50;
+}
+tr.tip {
+    margin-left: 250px;
+}
+/*Botones*/
+.btn-add{
+	width: 72px;
+	float: right;
+}
+/*Productos*/
+.trwitherror td{
+    background-color: orange;
+}
+/*Ventas*/
+.lblDetalleVenta{
+    width: 30%;
+}
+/*Formularios*/
+.form-control-horizontal input[type=text]{
+    display: inline;
+    width: 100px;
+}
+.form-control-horizontal input[type=number]{
+    display: inline;
+    width: 100px;
+}
+.form-control-horizontal select{
+    display: inline;
+    width: 100px;
+}
+.form-control-horizontal label{
+    display: inline;
+}
+.form-control-horizontal .input-group
+{
+	display: inline-table;	
+    width: min-content;
+}
+.form-control-horizontal .form-group
+{
+    display: inline-grid;
+}
+
+   
